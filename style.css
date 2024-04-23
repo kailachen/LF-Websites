@@ -18,6 +18,7 @@ a:link{
       
 a:visited {
     color:rgb(0, 0, 0, 1.0);
+    text-decoration: none;
 }
 
 #section1 {
