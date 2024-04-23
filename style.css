@@ -11,6 +11,15 @@ section {
     box-sizing: border-box;
 }
 
+a:link{
+    color:rgba(0, 0, 0, 1.0);
+    text-decoration: none;
+}
+      
+a:visited {
+    color:rgb(0, 0, 0, 1.0);
+}
+
 #section1 {
     font-family: "futura-pt-condensed", sans-serif;
     font-weight: 400;
@@ -19,11 +28,12 @@ section {
     text-align: center;
     background-color: rgba(215, 225, 238, 1);
     overflow: hidden;
-    height: 50vh;
+    height: 60vh;
 }
 
 #section1 img{
-    max-width: 50vw;
+    /* max-width: 50vw; */
+    max-height: 35vh;
 }
 
 #section2 {
@@ -58,4 +68,6 @@ section {
 
 #section3 img {
     max-height: 6vh;
+    display: inline-block;
+    padding: 10px;
 }
