@@ -22,35 +22,36 @@ a:visited {
 }
 
 #section1 {
+    background-color: rgba(215, 225, 238, 1);
+    overflow: hidden;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 img{
+    /* max-width: 50vw; */
+    max-height: 40vh;
+}
+
+#section1 h1 {
     font-family: "futura-pt-condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
     text-align: center;
-    background-color: rgba(215, 225, 238, 1);
-    overflow: hidden;
-    height: 60vh;
+    margin-top: 20px;
 }
 
-#section1 img{
-    /* max-width: 50vw; */
-    max-height: 35vh;
-}
-
-#section2 {
+#section1 p {
     font-family: cormorant, sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 1.25;
-    background-color: rgba(215, 225, 238, 1);
-    padding-left: 30vw;
-    padding-right: 30vw;
-    overflow: hidden;
-    height: 20vh;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-}
+    margin-top: 10px;
+} 
 
 #section3 {
     font-family: cormorant, sans-serif;
@@ -70,5 +71,5 @@ a:visited {
 #section3 img {
     max-height: 6vh;
     display: inline-block;
-    padding: 10px;
+    padding: 1vw 1vh;
 }
