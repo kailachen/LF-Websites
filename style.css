@@ -28,12 +28,12 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1vw;
-
 }
 
 #section1 img{
     max-width: 75vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     /* max-height: 40vh; */
 }
 
