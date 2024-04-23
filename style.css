@@ -5,7 +5,6 @@ body {
 }
 
 section {
-    padding: 1vw;
     margin: 0 auto;
     border: 1px solid black; 
     box-sizing: border-box;
@@ -29,11 +28,13 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1vw;
+
 }
 
 #section1 img{
-    /* max-width: 50vw; */
-    max-height: 40vh;
+    max-width: 75vw;
+    /* max-height: 40vh; */
 }
 
 #section1 h1 {
