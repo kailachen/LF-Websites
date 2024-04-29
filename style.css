@@ -23,7 +23,7 @@ a:visited {
 #section1 {
     background-color: rgb(235, 240, 247);
     overflow: hidden;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@ a:visited {
     padding-left: 2vw;
     padding-right: 2vw;
     overflow: hidden;
-    height: auto;
+    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
