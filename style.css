@@ -40,6 +40,12 @@ a:visited {
     max-height: auto; 
 }
 
+@media (max-width: 768px) {
+    #section1 img {
+        width: 100vw;
+    }
+}
+
 #section1 h1 {
     font-family: "proxima-nova-extra-condensed", sans-serif;
     font-weight: 700;
