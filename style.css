@@ -35,6 +35,8 @@ a:visited {
 #section1 img {
     position: absolute;
     top: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
     max-height: 57vh;
     width: 100%; /* For mobile screens, image width will be 100% of the screen */
 }
