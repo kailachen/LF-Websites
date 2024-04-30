@@ -21,8 +21,9 @@ a:visited {
     text-decoration: none;
     border-bottom: 2px solid rgba(255, 205, 251, 1);
 }
+
 #section1 {
-    position: relative; 
+    position: relative;
     overflow: hidden;
     height: 60vh;
     display: flex;
@@ -31,11 +32,9 @@ a:visited {
     align-items: center;
 }
 
-
 #section1 img {
     position: absolute;
     top: 3vh;
-    left: 0;
     max-height: 57vh;
     width: 100%; /* For mobile screens, image width will be 100% of the screen */
 }
