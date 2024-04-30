@@ -79,6 +79,12 @@ a:visited {
     }
 }
 
+@media (max-width: 768px) {
+    #section3 p {
+        width: 98vw;
+    }
+}
+
 #section3 p {
     padding-left: 10vw;
     padding-right: 10vw;
