@@ -140,6 +140,7 @@ p {
 .phone-number {
     text-decoration: underline;
     text-decoration-color: rgba(167, 199, 231, 1);
+    border: 0;
 }
 
 .insta-box {
