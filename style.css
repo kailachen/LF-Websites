@@ -122,7 +122,8 @@ p {
 } 
 
 .phone-number {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgba(167, 199, 231, 1);
 }
 
 .insta-box {
