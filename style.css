@@ -13,10 +13,10 @@ section {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
-    height: 5vh;
+    height: 8vh;
     width: 100%;
     margin: 0 auto;
     font-family: "proxima-nova-extra-condensed", sans-serif;
@@ -25,6 +25,9 @@ footer {
     line-height: 1.25;
     font-size: 15px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -52,7 +55,6 @@ p {
     font-style: normal;
     line-height: 1.25;
     font-size: 20px;
-    padding-top: 1.5vh;
     padding-bottom: 0vh;
     margin: 0;
 }
@@ -60,12 +62,12 @@ p {
 #section1 {
     position: relative;
     overflow: hidden;
-    height: 56vh;
+    height: 57vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
 }
 
 #section1 img {
@@ -90,7 +92,7 @@ p {
     font-style: normal;
     font-size: 50px;
     text-align: center;
-    margin-top: 25vh;
+    margin-top: 50%;
     z-index: 1; 
 }
 
@@ -147,16 +149,18 @@ p {
 
 .insta-box {
     max-width: 100vw;
-    max-height: 8vh;
+    max-height: 10vh;
     /* border: solid black 2px; */
-    margin: 1vh 1vw;
     display: flex; /* Add flex display */
-    align-items: center; /* Center vertically */
+    align-items: top; /* Center vertically */
+    margin: 0;
+    padding-top: 10px;
 }
 
 .insta-box img {
-    max-height: 6vh;
-    padding: 1vh 1.5vw;
+    max-height: 19px;
+    padding-right: 8px;
+    padding-top: 8px;
 }
 
 .insta-box-info {
@@ -165,8 +169,6 @@ p {
     font-style: normal;
     line-height: 1.5;
     font-size: 22px;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
     padding-left: 0vw;
     padding-right: 1vw;
     margin: 0;
